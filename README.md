@@ -6,7 +6,7 @@ One-Way Repeated Measures ANOVA is a powerful statistical technique used to anal
 In this analysis, we explore how a factor "a" influences a dependent variable "y" measured repeatedly on the same subjects. The output from the analysis includes an F-value and p-value, indicating the significance of the observed differences. A small p-value suggests a meaningful impact, while a large p-value implies changes could be due to chance.
 
  Procedure
-1. **Data Loading**: The dataset is loaded from a Stata file using `pyreadstat` library, and the structure is examined.
+1. **Data Loading**: The dataset is loaded from the weblink: [a Stata file using `pyreadstat` library](https://raw.githubusercontent.com/KenDaupsey/One-Way-Repeated-measures-ANOVA/main/Oneway%20Repeated%20Measures%20ANOVA%7Erb4.csv), and the structure is examined.
 2. **One-Way Repeated Measures ANOVA**: The `AnovaRM` function from `statsmodels.stats.anova` is used to conduct the analysis, specifying the dependent variable, subject, and within-subjects factor.
 3. **Interpretation**: The output provides key statistics including F-value, degrees of freedom, and p-value, aiding in interpreting the significance of the factor "a."
 
